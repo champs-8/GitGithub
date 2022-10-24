@@ -1,0 +1,16 @@
+git init -> inicializa um repositorio
+git status -> verifica quais arquivos estao incluidos no controle de versão
+
+commits sao versoes do codigos
+untrackeds sao arquivos nao incluidos
+
+git add "xx"-> adiciona arquivos a verificação de versao
+git add . -> adiciona todos os arquivos da pasta a verificacao de versao
+git commit -m "xx" -> mensagem, das versoes que serao criadas.
+
+git config --global user.email
+git config --global user.name  -> sao usados para primeiro acesso ao github.
+
+git push -> enviar a versao do acesso local para o servidor na nuvem.
+
+git remote add origin (link) -> define para onde o codigo será enviado.
