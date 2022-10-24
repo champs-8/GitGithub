@@ -14,3 +14,6 @@ git config --global user.name  -> sao usados para primeiro acesso ao github.
 git push -> enviar a versao do acesso local para o servidor na nuvem.
 
 git remote add origin (link) -> define para onde o codigo será enviado.
+git reflog -> quais versoes foram adicionadas ate o momento(mais atual fica no topo)
+
+git reset --hard "" -> retornar a versoes antigas dos codigos
