@@ -17,3 +17,13 @@ git remote add origin (link) -> define para onde o codigo será enviado.
 git reflog -> quais versoes foram adicionadas ate o momento(mais atual fica no topo)
 
 git reset --hard "" -> retornar a versoes antigas dos codigos
+
+
+branch(ramos)
+
+git branch -> verifica quais branchs estao disponiveis
+git branch (nome) -> cria uma nova branch
+git checkout nome -> muda de branch
+
+
+
