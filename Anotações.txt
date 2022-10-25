@@ -5,6 +5,7 @@ commits sao versoes do codigos
 untrackeds sao arquivos nao incluidos
 
 git add "xx"-> adiciona arquivos a verificação de versao
+git restore --staged nome -> retira a verificação para versionar
 git add . -> adiciona todos os arquivos da pasta a verificacao de versao
 git commit -m "xx" -> mensagem, das versoes que serao criadas.
 
@@ -12,6 +13,8 @@ git config --global user.email
 git config --global user.name  -> sao usados para primeiro acesso ao github.
 
 git push -> enviar a versao do acesso local para o servidor na nuvem.
+
+git push --set-upstream origin (nome da branch) -> quando for fazer o push e tiver trocado de branch
 
 git remote add origin (link) -> define para onde o codigo será enviado.
 git reflog -> quais versoes foram adicionadas ate o momento(mais atual fica no topo)
@@ -25,5 +28,16 @@ git branch -> verifica quais branchs estao disponiveis
 git branch (nome) -> cria uma nova branch
 git checkout nome -> muda de branch
 
+//procedimento para unir/passar os codigos da versao teste para a produção.
+
+git pull(verificar se esta no codigo mais atual)
+vai entrar na branch master(git checkout)
+git pull
+git merge nome -> nome da branch que vai puxar
+depois tem que fazer o (git push).
+
+
+antes de fazer um merge, executar o comando na branch principal 
+git pull -> ele vai trazer as atualizaçoes do servidor para sua maquina local.
 
 
